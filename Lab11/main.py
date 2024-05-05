@@ -10,7 +10,7 @@ conn = psycopg2.connect(database="postgres", user="postgres", password="12345", 
 cursor = conn.cursor()
 
 # Создание бота
-bot = telebot.TeleBot("6578758432:AAEMsfm8pmxByxFKUp11oBGz4ecfWXSQGVk")
+bot = telebot.TeleBot("API")
 
 
 # Команда /start или /help
